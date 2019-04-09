@@ -45,7 +45,7 @@ public class RedesNeurais_Perceptron {
 				if (yEnt > limiar) {
 					f = 1;
 					vetorF[i] = f;
-				} else if (yEnt <= limiar && yEnt <= limiar) {
+				} else if ((-1 * limiar) <= yEnt && yEnt <= limiar) {
 					f = 0;
 					vetorF[i] = f;
 				} else {
