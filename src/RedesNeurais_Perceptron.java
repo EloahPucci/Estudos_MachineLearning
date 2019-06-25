@@ -107,7 +107,7 @@ public class RedesNeurais_Perceptron {
 		
 		if (yentTeste > limiar) {
 			System.out.println("Resultado: " + 1);
-		} else if (yentTeste <= limiar && yentTeste <= limiar) {
+		} else if ((-1 * limiar) <= yentTeste && yentTeste <= limiar) {
 			System.out.println("Resultado: " + 0);
 		} else {
 			System.out.println("Resultado: " + -1);
